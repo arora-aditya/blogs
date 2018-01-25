@@ -12,6 +12,19 @@
     overflow: hidden;
 }
 
+/*Back Button ----------------------------------------------------------*/
+#back img {
+  top: 0px;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#back img:hover {
+  top: -5px;
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 /*General --------------------------------------------------------------*/
 #page-wrap {
      max-width: 1000px;
