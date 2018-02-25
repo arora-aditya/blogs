@@ -262,15 +262,17 @@ a:visited {
 .overlay {
   opacity: 0;
   position: absolute;
-  height: 100%;
   width: 100%;
+  height: 100%;
+    display:flex;
   padding: 0px;
   background: rgba(255,255,255,0.95);
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
+    z-index: 1;
 }
 
-.box-shadow:hover .overlay {
+.coming-soon:hover .overlay {
     opacity: 1;
 }
 
